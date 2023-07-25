@@ -6,7 +6,7 @@ export const Navbar = () => {
     <nav className=" border-b-4 border-green-900 fixed top-0 bg-green-600 font-bold w-full text-lg text-white text-center p-4">
       <ul>
         <li className=' inline-block '>
-            <Link to='/' className=' pl-6 pr-8'>
+            <Link to='/' className='pl-6 pr-8'>
                 Home
             </Link>
         </li>
@@ -16,7 +16,7 @@ export const Navbar = () => {
             </Link>
         </li>
       <li className=' inline-block '>
-            <Link to='/articles' className=' pl-6 pr-8'>
+            <Link to='/articles/:name' className=' pl-6 pr-8'>
                 Articles
             </Link>
         </li>
