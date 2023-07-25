@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 export const ArticlesListe = () => {
   return (
     <div>
-      <h1 className='sm:text-4xl text-center font-bold text-2xl my-5'> 
-      ArticlesListe
+      <h1 className='sm:text-4xl text-start font-bold text-2xl my-5'> 
+      Articles
       </h1>
       <div className=' container mx-auto py-4'>
         <div className='flex flex-wrap m-4'>

@@ -10,7 +10,6 @@ export const Articles = () => {
       <h1 className="sm:text-4xl text-center font-bold text-2xl my-5">
         {articles.title}
       </h1>
-     
       {articles.content.map((paragraph, index) => 
       <p className="mb-4 mx-auto leading-relaxed" key={index}>
         {paragraph}

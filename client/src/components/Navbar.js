@@ -16,15 +16,15 @@ export const Navbar = () => {
             </Link>
         </li>
       <li className=' inline-block '>
-            <Link to='/articles/:name' className=' pl-6 pr-8'>
+            <Link to='/articles-Liste' className=' pl-6 pr-8'>
                 Articles
             </Link>
         </li>
-      <li className=' inline-block '>
+      {/* <li className=' inline-block '>
             <Link to='/articles-Liste' className=' pl-6 pr-8'>
                 ArticlesListe
             </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
